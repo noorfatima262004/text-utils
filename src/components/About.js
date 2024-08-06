@@ -16,7 +16,8 @@ export default function About() {
           </div>
           <div className="  cont">
           <span class="material-symbols-outlined">add</span>
-          Reverse the text</div>
+          Reverse the text
+          </div>
           <div className="  cont">
           <span class="material-symbols-outlined">add</span>
           Count words and charecters</div>
