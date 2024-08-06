@@ -7,7 +7,6 @@ import './App.css';
 
 function App() {
   const [mode, setMode] = useState("light");
-  const [colorClass, setColorClass] = useState(""); // New state for color class
 
   const removeAllBg = () => {
     document.body.classList.remove('bg-dark');
@@ -21,7 +20,6 @@ function App() {
   const toggleState = (cls) => {
     removeAllBg();
     if (cls) {
-      setColorClass(cls);
       document.body.classList.add('bg-' + cls);
     }
     else
